@@ -1,0 +1,28 @@
+{
+  "name": "@david-szabo97/swc-watch",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "bin": {
+    "swc-watch": "index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Dávid Szabó",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "string-argv": "^0.3.1"
+  },
+  "peerDependencies": {
+    "@swc/cli": "*",
+    "@swc/core": "*",
+    "chokidar": "*"
+  },
+  "prettier": {
+    "printWidth": 120
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
